@@ -1,8 +1,8 @@
 var CACHE_VERSION = 'myapp-v1';
 var CACHE_FILES = [
     'images/logo.png',
-    'images/lightblue.png',
-    'images/lightgold.png',
+    'images/lightblue.jpg',
+    'images/lightgold.jpg',
     'app.js',
     'styles.css'
 ];

@@ -2,9 +2,9 @@ function changeBackground() {
     var select = document.getElementById("bg-select");
     var selectedValue = select.options[select.selectedIndex].value;
     if (selectedValue === "light-blue") {
-        document.body.style.backgroundImage = "url('/images/lightblue.png')";
+        document.body.style.backgroundImage = "url('/images/lightblue.jpg')";
     } else if (selectedValue === "light-gold") {
-        document.body.style.backgroundImage = "url('/images/lightgold.png')";
+        document.body.style.backgroundImage = "url('/images/lightgold.jpg')";
     }
 }
 
