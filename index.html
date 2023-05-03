@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Service Worker || PWA</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body class="d-flex flex-column justify-content-center align-items-center">
+    <div class="container text-center">
+        <h1>How to imlement PWA</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <p class="lead text-center">
+                        Progressive Web Applications (PWAs) are designed to provide users with a fast, reliable, and
+                        engaging experience, similar to native mobile applications. They use modern web technologies
+                        such as Service Workers and Web App Manifest to offer offline functionality, making them
+                        accessible and reliable in situations where users may have limited or unreliable internet
+                        connectivity.
+                    </p>
+                    <p class="lead text-center">
+                        PWAs are responsive, installable, and leverage native device features to provide an experience
+                        that is comparable to that of native apps, making them a popular choice for businesses looking
+                        to engage with their customers on the web.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h2>Change Background Example</h2>
+        <p>Select a background:</p>
+        <select id="bg-select" onchange="changeBackground()" class="form-control w-50 mx-auto">
+            <option value="">--Please choose an option--</option>
+            <option value="light-blue">Light Blue</option>
+            <option value="light-gold">Light Gold</option>
+        </select>
+    </div>
+
+    <!-- Bootstrap JS and jQuery -->
+
+    <script src="app.js"></script> <!-- Your custom JS file -->
+</body>
+
+</html>
